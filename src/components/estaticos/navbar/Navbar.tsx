@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <>
             <AppBar position="static">
-                <Toolbar variant="dense">
+                <Toolbar variant="dense" className="bg-navbar">
                     <Box className='cursor'>
                         <Typography variant="h5" color="inherit">
                             BlogPessoal

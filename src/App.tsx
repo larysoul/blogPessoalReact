@@ -5,6 +5,7 @@ import Footer from './components/estaticos/footer/Footer';
 import Home from './paginas/home/Home';
 import Login from './paginas/login/Login';
 import './App.css';
+import CadastroUsuario from './paginas/cadastroUsuario/CadastroUsuario';
 
 
 function App() {
@@ -25,6 +26,11 @@ function App() {
             <Route path='/home'>
               <Home />
             </Route>
+
+            <Route path='/cadastrousuario'>
+              <CadastroUsuario />
+            </Route>
+
           </div>
         </Switch>
       <Footer />
